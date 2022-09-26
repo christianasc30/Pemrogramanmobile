@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var tvMain : TextView
     lateinit var btnInputNama : Button
     lateinit var btnHelp : Button
+    lateinit var btnlinear : Button
+    lateinit var btnconstraint : Button
+    lateinit var btndutatani : Button
     lateinit var edInputNama : EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,5 +40,22 @@ class MainActivity : AppCompatActivity() {
             finish()
         })
 
-    }
-}
+        btnlinear = findViewById(R.id.btn_linear)
+        btnlinear.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, LinearActivity::class.java)
+            startActivity(intent)
+
+    })
+        btnconstraint = findViewById(R.id.btn_constraint)
+        btnconstraint.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, ConstraintActivity::class.java)
+            startActivity(intent)
+
+        })
+        btndutatani = findViewById(R.id.btn_dutatani)
+        btndutatani.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, DutaTani::class.java)
+            startActivity(intent)
+
+        })
+}}

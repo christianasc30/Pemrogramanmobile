@@ -14,9 +14,22 @@
         android:theme="@style/Theme.Week01"
         tools:targetApi="31">
         <activity
+            android:name=".DutaTani"
+            android:exported="false"
+            android:label="@string/title_activity_duta_tani" />
+        <activity
+            android:name=".dutatani"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="false" />
+        <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="Help Activity"/>
+            android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
