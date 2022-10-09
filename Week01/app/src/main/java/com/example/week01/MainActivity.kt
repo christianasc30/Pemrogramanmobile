@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnconstraint : Button
     lateinit var btndutatani : Button
     lateinit var edInputNama : EditText
+    lateinit var btnrv : Button
+    lateinit var btncv : Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -55,6 +58,18 @@ class MainActivity : AppCompatActivity() {
         btndutatani = findViewById(R.id.btn_dutatani)
         btndutatani.setOnClickListener(View.OnClickListener { view ->
             var intent = Intent(this@MainActivity, DutaTani::class.java)
+            startActivity(intent)
+
+        })
+        btnrv = findViewById(R.id.btn_sampleRV)
+        btnrv.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, SampleRecyclerView::class.java)
+            startActivity(intent)
+
+        })
+        btncv = findViewById(R.id.btn_sampleCV)
+        btncv.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, Sample_Card_View::class.java)
             startActivity(intent)
 
         })
