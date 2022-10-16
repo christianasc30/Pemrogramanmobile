@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var edInputNama : EditText
     lateinit var btnrv : Button
     lateinit var btncv : Button
+    lateinit var btngetapi : Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -70,6 +72,12 @@ class MainActivity : AppCompatActivity() {
         btncv = findViewById(R.id.btn_sampleCV)
         btncv.setOnClickListener(View.OnClickListener { view ->
             var intent = Intent(this@MainActivity, Sample_Card_View::class.java)
+            startActivity(intent)
+
+        })
+        btngetapi = findViewById(R.id.btnGetAPI)
+        btngetapi.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, GetAPIActivity::class.java)
             startActivity(intent)
 
         })

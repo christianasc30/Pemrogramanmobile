@@ -7,7 +7,9 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_duta_tani.xml" value="0.7333333333333334" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_dutatani.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_edit_data.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_get_apiactivity.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_help.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_insert.xml" value="0.22" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_linear.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/activity_sample_card_view.xml" value="0.2028985507246377" />
@@ -19,6 +21,8 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/fragment_notifications.xml" value="0.11231884057971014" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/rv_item_dutatani.xml" value="0.5412130637636081" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/rv_item_user.xml" value="0.2453125" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/rv_user_api.xml" value="1.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/layout/tes_linear.xml" value="0.12635869565217392" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/Repo/Week01/app/src/main/res/menu/menu_sample_list_view.xml" value="0.3521739130434783" />

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.week01">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,17 +16,33 @@
         android:theme="@style/Theme.Week01"
         tools:targetApi="31">
         <activity
-            android:name=".Sample_Card_View"
+            android:name=".InsertActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GetAPIActivity"
             android:exported="false" />
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Sample_Card_View"
+            android:exported="true" />
         <activity
             android:name=".SampleRecyclerView"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".EditData"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SampleListView"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SampleList"
             android:exported="true" />
@@ -34,23 +52,18 @@
             android:label="@string/title_activity_duta_tani" />
         <activity
             android:name=".ConstraintActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LinearActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".HelpActivity"
             android:exported="true"
             android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
