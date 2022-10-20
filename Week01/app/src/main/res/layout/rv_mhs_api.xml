@@ -6,22 +6,22 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/notelp"
+        android:id="@+id/rvnama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="24dp"
-        android:text="telepon"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="nama"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/nama"
+        android:id="@+id/rvnim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="48dp"
-        android:text="nama"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="nim"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,8 +29,8 @@
         android:id="@+id/rvalamat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="64dp"
         android:text="alamat"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,9 +39,19 @@
         android:id="@+id/rvemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
         android:text="email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rvfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:text="foto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

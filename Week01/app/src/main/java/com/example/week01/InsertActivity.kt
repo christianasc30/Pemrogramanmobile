@@ -1,5 +1,6 @@
 package com.example.week01
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,6 +17,8 @@ class InsertActivity : AppCompatActivity() {
     lateinit var txtfoto: EditText
     lateinit var txtnimprogmob : EditText
     lateinit var btnsubmit : Button
+    lateinit var btnget : Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +30,7 @@ class InsertActivity : AppCompatActivity() {
         txtfoto = findViewById(R.id.txt_foto)
         txtnimprogmob = findViewById(R.id.txt_nimprogmob)
         btnsubmit = findViewById(R.id.btn_submit)
+        btnget = findViewById(R.id.btn_get)
 
         btnsubmit.setOnClickListener(View.OnClickListener { view ->
             val nim = txtnim.text.toString()
@@ -46,6 +50,11 @@ class InsertActivity : AppCompatActivity() {
                     println("error")
                 }
             }
+        })
+        btnget.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@InsertActivity, GetMhsApi::class.java)
+            startActivity(intent)
+
         })
     }
 }
